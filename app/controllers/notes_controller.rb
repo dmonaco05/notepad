@@ -31,6 +31,7 @@ class NotesController < ApplicationController
       redirect_to @note
     else
       render 'edit'
+    end
   end
 
   def destroy
