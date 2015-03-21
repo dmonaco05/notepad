@@ -1,1 +1,32 @@
-%h1 Welcome
+#banner
+  .banner_content
+    %h1 Note
+    %p Your online notebook. Never forget again.
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "The greatest app ever."
+    %p.name - Dominic Monaco
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Rock
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sint unde doloribus nisi. Ipsam sint velit iure possimus ullam, est placeat necessitatibus mollitia explicabo commodi tempora dolor consequuntur, illo, delectus.
+      .callout
+        %h2 Paper
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sint unde doloribus nisi. Ipsam sint velit iure possimus ullam, est placeat necessitatibus mollitia explicabo commodi tempora dolor consequuntur, illo, delectus.
+      .callout
+        %h2 Scissors
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sint unde doloribus nisi. Ipsam sint velit iure possimus ullam, est placeat necessitatibus mollitia explicabo commodi tempora dolor consequuntur, illo, delectus.
+
+#bottom_cta
+  .wrapper
+    %h2 Seriously,
+    %p You should sign up. What are you waiting for?
+    %button= link_to "Click Here", new_user_registration_path
+
+%footer
+  %p &copy; Dominic Monaco
